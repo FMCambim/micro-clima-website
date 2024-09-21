@@ -1,7 +1,7 @@
 import mailchimp from "@mailchimp/mailchimp_marketing";
 
 mailchimp.setConfig({
-  apiKey: "bd37a170570cdb0b02c40f1b49eb02ec-us21",
+  apiKey: process.env.MAILCHIMP_API_KEY,
   server: "us21",
 });
 
