@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("/fonts/Aeonik_Regular.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Aeonik", sans-serif;
+}

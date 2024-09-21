@@ -1,0 +1,149 @@
+#cpAccSignup {
+  max-width: 40%;
+}
+
+.signupForm {
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+
+.signupFormInput {
+  max-width: 100%;
+}
+
+.signupFormButton {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  right: 0;
+}
+
+.wForm {
+  margin: 0 0 15px;
+}
+
+.screenReaderText {
+  display: inline;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screenReaderText:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+}
+
+.lpHeroFormInput {
+  color: #000;
+  background-color: #fff;
+  border: 2px #000;
+  margin-bottom: 0;
+  padding: 8px 18px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.lpHeroFormInput::-ms-input-placeholder {
+  color: #000;
+}
+
+.lpHeroFormInput::placeholder {
+  color: #000;
+}
+
+.footerFormDisabledButton {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.footerFormButton {
+  background-color: #000 ;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 0.45rem 1.4rem;
+  line-height: 1rem;
+  position: absolute;
+  top: 2.3rem;
+  left: auto;
+  right: 2.8rem;
+}
+
+.footerFormButton:hover{
+  background-color: #4337C9;
+  color: #fff;
+}
+
+.signupFormButton {
+  background-color: #0f0f0f;
+  border-radius: 3rem;
+  padding: 0.55rem 1.4rem;
+  line-height: 1rem;
+  position: absolute;
+  top: 0.25rem;
+  bottom: auto;
+  left: auto;
+  right: 0.3rem;
+}
+
+.signupFormButton:hover,
+.signupFormButton:focus {
+  mix-blend-mode: multiply;
+}
+
+.loader {
+  display: inline-block;
+  border: 2px solid #edeef2; /* Light grey */
+  border-top: 2px solid #eb4e23;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 2s linear infinite;
+}
+
+@media screen and (max-width: 479px) {
+  .signupForm {
+    max-width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .signupFormInput {
+    max-width: 100%;
+  }
+
+  .signupFormButton {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+  }
+
+  .footerFormButton {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    max-width:40%
+  }
+
+  .lpHeroFormInput {
+    max-width: 100%;
+  }
+}

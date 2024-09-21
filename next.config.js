@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  // Your general Next.js configuration options go here
+}
 
-module.exports = nextConfig
+const withVideos = require('next-videos')
+
+module.exports = withVideos(nextConfig)
